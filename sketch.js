@@ -121,7 +121,10 @@ function draw() {
     fill('black')
     textSize('32')
     text("YOU WON",width/2,height/2)
-    
+    ground.velocityX=0
+    obstaclesGroup.velocityX=0
+    cloudsGroup.velocityX=0
+     restart.visible = true;
   }
   
   drawSprites();
