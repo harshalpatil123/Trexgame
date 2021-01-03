@@ -117,7 +117,7 @@ function draw() {
     }
   }
   
-  if(score===1000){
+  if(score===10){
     fill('black')
     textSize('32')
     text("YOU WON",width/2,height/2)
